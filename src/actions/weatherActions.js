@@ -39,22 +39,3 @@ export function getDailyDC() {
         })
     })
 }
-
-// export function getHourlyLV() {
-//     axios.get('https://api.openweathermap.org/data/2.5/forecast/hourly?id=5506956&APPID=0091ae1b63c26b8641bab40622b54f82&units=imperial').then(resp => {
-//         store.dispatch({
-//             type: 'GET_HOURLY_LV',
-//             lvd: resp.data.list,
-//         })
-//     })
-// }
-
-
-// export function getHourlyDC() {
-//     axios.get('https://api.openweathermap.org/data/2.5/forecast/hourly?id=4140963&APPID=0091ae1b63c26b8641bab40622b54f82&units=imperial').then(resp => {
-//         store.dispatch({
-//             type: 'GET_HOURLY_DC',
-//             dcd: resp.data.list,
-//         })
-//     })
-// }

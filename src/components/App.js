@@ -5,7 +5,6 @@ import store from '../store'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Daily from './daily'
-import Hourly from './hourly'
 
 class App extends Component {
   render() {
@@ -17,9 +16,6 @@ class App extends Component {
               <h1>Nova's Weather App</h1>
             </div>
             <Route exact path="/" component={Daily} />
-            <Route path="/date" component={Hourly} />
-            {/* <Route exact path="/lvdate" component={LVH} />
-            <Route exact path="/dcdate" component={DCH} /> */}
           </div>
         </Router>
       </Provider>
